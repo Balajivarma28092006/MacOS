@@ -53,10 +53,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <html>
     <head>
         <title>Password Change Result</title>
-        <link rel="stylesheet" href="/U/os_interface/resources/css/index_linker.css">
+        <link rel="stylesheet" href="/os_interface/resources/css/index_linker.css">
         <style>
             body {
-                background-image: url(\'/U/os_interface/images/mac.jpg\');
+                background-image: url(\'/os_interface/resources/css/mac.jpg\');
                 background-size: cover;
                 height: 100vh;
                 display: flex;
@@ -94,11 +94,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </head>
     <body class="night" sysDesktopBackGround>
     <div class="background">
-    <img src="/U/os_interface/images/mac.jpg" alt="Background Image" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: -1;">
+    <img src="/os_interface/images/mac.jpg" alt="Background Image" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: -1;">
     </div>
         <div class="result-box">
             <div class="user-container">
-                <div class="user" data-user="User-One"></div>
                 <div class="user-name">
                     <p>Password Change</p>
                 </div>
@@ -111,8 +110,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     echo '<div class="back-to-login">
-            <a href="/U/os_interface/public/login.html">Back to Login</a> | 
-            <a href="/U/os_interface/public/change_pass.html">Change Again</a>
+            <a href="/os_interface/public/login.html">Back to Login</a> | 
+            <a href="/os_interface/public/change_pass.html">Change Again</a>
           </div>
         </div>
     </body>

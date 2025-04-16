@@ -45,7 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['user_id'] = $user['id'];
             
             // Redirect to desktop or home page
-            header("Location: /U/os_interface/public/front_page.html");
+            header("Location: /os_interface/public/front_page.html");
             exit();
         } else {
             echo "<script>alert('Invalid password');</script>";

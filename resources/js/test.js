@@ -265,22 +265,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
                 <div class="finder-content">
                 <div class="folder-tile">
-                <img src="U/os_interface/icon/folder.ico" alt="folder"/>
+                <img src="/os_interface/icon/dock/folder.png" alt="folder"/>
                 <span>Home</span>
                     </div>
                     <div class="folder-tile">
-                   <img src="./os_interface/icon/folder.ico" alt="folder"/>
+                   <img src="/os_interface/icon/dock/folder.png" alt="folder"/>
                    <span>Desktop</span>
                     </div>
                     <div class="folder-tile">
-                   <img src="U/os_interface/icon/folder.ico" alt="folder"/>
+                   <img src="/os_interface/icon/dock/folder.png" alt="folder"/>
                     <span>Personals</span>
                     </div>
                     <div class="folder-tile">
-                   <img src="U/os_interface/icon/folder.ico" alt="folder"/>
+                   <img src="/os_interface/icon/dock/folder.png" alt="folder"/>
                     <span>Bin</span>
                     </div>
-                    
                 </div>
             </div>`;
     }

@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Execute the statement
     if ($stmt->execute()) {
         // Signup successful - redirect to desktop page
-        header("Location: /U/os_interface/public/front_page.html");
+        header("Location: /os_interface/public/front_page.html");
         exit();
     } else {
         echo "Error: " . $stmt->error;

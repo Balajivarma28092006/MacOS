@@ -59,7 +59,7 @@ function show_temp_password($username, $temp_password) {
     <html>
     <head>
         <title>Password Reset</title>
-        <link rel="stylesheet" href="/U/os_interface/resources/css/index_linker.css">
+        <link rel="stylesheet" href="/os_interface/resources/css/index_linker.css">
         <style>
             .password-box {
                 background-color: rgba(0, 0, 0, 0.7);
@@ -84,10 +84,9 @@ function show_temp_password($username, $temp_password) {
             }
         </style>
     </head>
-    <body class="night" sysDesktopBackGround style="background-image: url('/U/os_interface/images/mac.jpg');">
+    <body class="night" sysDesktopBackGround style="background-image: url('/os_interface/resources/css/mac.jpg');">
         <div class="password-box">
             <div class="user-container">
-                <div class="user" data-user="User-One"></div>
                 <div class="user-name">
                     <p>Password Reset</p>
                 </div>
@@ -100,7 +99,7 @@ function show_temp_password($username, $temp_password) {
             
             <p class="warning">You must change this password after logging in!</p>
             
-            <a href="/U/os_interface/public/login.html" style="color:#4a90e2;">Back to Login</a>
+            <a href="/os_interface/public/login.html" style="color:#4a90e2;">Back to Login</a>
         </div>
     </body>
     </html>
@@ -113,7 +112,7 @@ function show_error($message) {
     <html>
     <head>
         <title>Error</title>
-        <link rel="stylesheet" href="/U/os_interface/resources/css/index_linker.css">
+        <link rel="stylesheet" href="/os_interface/resources/css/index_linker.css">
         <style>
             .error-box {
                 background-color: rgba(0, 0, 0, 0.7);
@@ -127,10 +126,9 @@ function show_error($message) {
             }
         </style>
     </head>
-    <body class="night" sysDesktopBackGround style="background-image: url('/U/os_interface/images/mac.jpg');">
+    <body class="night" sysDesktopBackGround style="background-image: url('/os_interface/resources/css/mac.jpg');">
         <div class="error-box">
             <div class="user-container">
-                <div class="user" data-user="User-One"></div>
                 <div class="user-name">
                     <p>Error</p>
                 </div>
@@ -139,8 +137,8 @@ function show_error($message) {
             <p>$message</p>
             
             <div style="margin-top:20px;">
-                <a href="/U/os_interface/public/forgot_password.html" style="color:#4a90e2;">Try Again</a> | 
-                <a href="/U/os_interface/public/login.html" style="color:#4a90e2;">Back to Login</a>
+                <a href="/os_interface/public/forgot_password.html" style="color:#4a90e2;">Try Again</a> | 
+                <a href="/os_interface/public/login.html" style="color:#4a90e2;">Back to Login</a>
             </div>
         </div>
     </body>
